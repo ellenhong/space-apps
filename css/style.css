@@ -16,6 +16,8 @@ html {
 
 .moon-img {
   animation: moon-rotate 5s linear infinite;
+  -webkit-animation: moon-rotate 5s linear infinite;
+  -moz-animation: moon-rotate 5s linear infinite;
 }
 
 @keyframes moon-rotate {
