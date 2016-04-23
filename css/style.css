@@ -15,10 +15,16 @@ html {
 }
 
 .moon-img {
-  animation: moonimg 5s linear infinite;
+  animation: moon-rotate 5s linear infinite;
 }
 
-@keyframes moonimg {
+@keyframes moon-rotate {
+    to { 
+      transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes moon-rotate {
     to { 
       transform: rotate(360deg);
     }
