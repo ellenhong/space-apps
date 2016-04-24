@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/phases.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="script/phases.js"></script>
+</head>
+<body>
+	<div id="popup">
+		<div id="popup-overlay"></div>
+		<div id="popup-box">
+			<div class="phase-container" id="phase-container1">
+				<div class="phase-img" id="phase-img1">
+					<img src="phase1.png">
+				</div>
+				<div class="phase-text" id="phase-text1">
+					<p class="phase-title">New Moon</p>
+					<p>When the moon is in this phase,
+						we cannot see any part of it.
+						This is because the moon is 
+						positioned exactly between the
+						sun and us, the earth.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="phase-container2">
+				<div class="phase-img" id="phase-img2">
+					<img src="phase2.png">
+				</div>
+				<div class="phase-text" id="phase-text2">
+					<p class="phase-title">Waxing Crescent</p>
+					<p>This comes after the new moon.
+						In this phase, we can start to see part of the moon being lit up by the sun.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="phase-container3">
+				<div class="phase-img" id="phase-img3">
+					<img src="phase3.png">
+				</div>
+				<div class="phase-text" id="phase-text3">
+					<p class="phase-title">First Quarter</p>
+					<p>At this phase, the moon is at a 90 degree angle with respect to the earth and sun. This is why we see half of the moon lit up by the sun.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="phase-container4">
+				<div class="phase-img" id="phase-img4">
+					<img src="phase4.png">
+				</div>
+				<div class="phase-text" id="phase-text4">
+					<p class="phase-title">Waxing Gibbous</p>
+					<p>At this phase, most of the moon is lit up by the sun, so we see almost a full moon.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="phase-container5">
+				<div class="phase-img" id="phase-img5">
+					<img src="phase5.png">
+				</div>
+				<div class="phase-text" id="phase-text5">
+					<p class="phase-title">Full Moon</p>
+					<p>In this phase, we see the entire face of the moon facing us because the earth, sun, and moon are all in alignment.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="phase-container6">
+				<div class="phase-img" id="phase-img6">
+					<img src="phase6.png">
+				</div>
+				<div class="phase-text" id="phase-text6">
+					<p class="phase-title">Waning Gibbous</p>
+					<p>After the full moon, the part of the moon lit up by the sun starts to decrease. This is why we see a little bit less than a full moon in this phase.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="phase-container7">
+				<div class="phase-img" id="phase-img7">
+					<img src="phase7.png">
+				</div>
+				<div class="phase-text" id="phase-text7">
+					<p class="phase-title">Third Quarter</p>
+					<p>Similar to the first quarter, the moon is at a 90 degree angle with respect to the earth and sun.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="phase-container8">
+				<div class="phase-img" id="phase-img8">
+					<img src="phase8.png">
+				</div>
+				<div class="phase-text" id="phase-text8">
+					<p class="phase-title">Waning Crescent</p>
+					<p>We only see a little sliver of the moon lit up by the sun in this phase. We are almost at a new moon again.</p>
+				</div>
+			</div>
+			<div class="phase-container" id="default-container">
+			</div>
+			
+		</div>
+	</div>
+	<div id="main">
+		<div class="header">
+			What day is it?
+		</div>
+		<div class="date-box">
+            <form id="data">
+                <select id="Day">
+    			</select>
+    			<select id="Month">
+    			</select>
+    			<select id="Year">
+    			</select>
+            </form>
+		</div>
+		<div id="button">
+			Tell me about the moon!
+		</div>
+	</div>
+</body>
+</html>

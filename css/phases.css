@@ -1,0 +1,136 @@
+body {
+	font-family: 'Roboto';
+	width: 100%;
+}
+
+#popup {
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	display: none;
+}
+
+#popup-box {
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	background: black;
+	top: 10vh;
+	left: calc(50% - 200px);
+	z-index: 100;
+}
+
+#popup-overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+}
+
+.phase-container {
+	visibility: hidden;
+}
+
+.phase-img {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin-left: calc(50% - 100px);
+	margin-top: 50px;
+}
+
+#phase-img1 {
+	background: pink;
+}
+
+#phase-img2 {
+	background: blue;
+}
+
+#phase-img3 {
+	background: green;
+}
+
+#phase-img4 {
+	background: orange;
+}
+
+#phase-img5 {
+	background: yellow;
+}
+
+#default-img {
+	background: black;
+}
+
+.phase-text {
+	color: white;
+	position: absolute;
+	text-align: center;
+	width: 315px;
+	bottom: 75px;
+	margin-left: calc(50% - 157.5px);
+}
+
+.phase-title {
+	font-size: 2.5em;
+	font-weight: 100;
+	margin: 10px;
+}
+
+
+
+#main {
+	position: absolute;
+	width: 100%;
+}
+
+.header {
+	font-weight: 100;
+	font-size: 5em;
+	width: 500px;
+	margin: auto;
+	margin-top: 24vh;
+}
+
+.date-box {
+	width: 440px;
+	margin: 20px auto;
+}
+
+select {
+	margin: 20px;
+	padding: 10px 35px 10px 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../circle-down.png) 90% no-repeat #eee;
+	font-weight: 400;
+	border: none;
+	font-size: 1.5em;
+	display: inline-block;
+}
+
+select dropdown {
+	display: inline-block;
+}
+
+
+#button {
+	width: 13rem;
+	font-size: 1.2em;
+	margin: 50px auto;
+	border: 1px solid #2887EC;
+	padding: 15px;
+	color: #2887EC;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#button:hover {
+	background: #2887EC;
+	color: white;
+}

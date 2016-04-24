@@ -1,12 +1,13 @@
 html {
 	height: 100%;
+	font-family: 'Roboto';
 }
 
 .moon {
 	width: 200px;
 	height: 200px;
 	margin: auto;
-	margin-top: 12%;
+	margin-top: 20vh;
 }
 
 .moon-img {
@@ -41,7 +42,7 @@ html {
 	width: 340px;
 	font-family: 'Slabo 27px';
 	font-size: 2em;
-	margin-top: 3%;
+	margin-top: 5vh;
 	color: white;
 }
 
@@ -119,3 +120,115 @@ html {
         -webkit-transition: all 0.6s 1.2s ease-out; 
                 transition: all 0.6s 1.2s ease-out;
 }
+
+/*///////////////////////////////////////////////////*/
+				/* CONTENT */
+/*///////////////////////////////////////////////////*/
+
+#header {
+	text-align: center;
+	margin: 10vh;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 3.5em;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 5px 0px;
+}
+
+
+#phases {
+	background: pink;
+}
+
+#phases:hover {
+	background: white;
+	border: solid 2px #E48A9A;
+	color: #E48A9A;
+}
+
+#photos {
+	background: #1AAD1A;
+}
+
+#photos:hover {
+	background: white;
+	border: solid 2px #1AAD1A;
+	color: #1AAD1A;
+}
+
+#facts {
+	background: orange;
+}
+
+#facts:hover {
+	background: white;
+	border: solid 2px orange;
+	color: orange;
+}
+
+#stories {
+	background: #73CBDC;
+}
+
+#stories:hover {
+	background: white;
+	border: solid 2px #73CBDC;
+	color: #73CBDC;
+}
+
+#boxes {
+	margin: 0 auto;
+	width: 910px;
+	position: relative;
+}
+
+#boxes a {
+	color: black;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+	border: solid 2px white;
+}
+
+.box:hover {
+	cursor: pointer;
+}
+
+
+
+.box-text {
+	top: 20px;
+	position: absolute;
+	width: 200px;
+	font-size: 1.5em;
+}
+
+.box-img {
+	margin-left: calc(50% - 52px);
+	width: 100px;
+	bottom: 30px;
+	position: absolute;
+}
+
+.boximg {
+	width: 100%;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+
+
+
+
